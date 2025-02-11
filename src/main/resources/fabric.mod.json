@@ -22,8 +22,8 @@
 	"mixins": [
 		"shulkerfix.mixins.json",
 		{
-			"config": "shulkerfix.client.mixins.json",
-			"environment": "client"
+			"config": "shulkerfix.mixins.json",
+			"environment": "server"
 		}
 	],
 	"depends": {
