@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "shulkerfix",
+	"version": "${version}",
+	"name": "shulkerfix",
+	"description": "Hacky fix for the bug MC-266334 which allows shulkers to break Armorstands in the versions 1.20.2-1.20.4",
+	"authors": [
+		"VortexOle"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://modrinth.com/mod/shulkerfix"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/shulkerfix/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.vortexole.Shulkerfix"
+		]
+	},
+	"mixins": [
+		"shulkerfix.mixins.json",
+		{
+			"config": "shulkerfix.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
