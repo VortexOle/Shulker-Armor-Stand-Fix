@@ -3,7 +3,7 @@
 
 Hacky fix for the bug MC-266334 which allows shulker to break armor stands.
 
-This mod is baisicly a replica of [this](https://modrinth.com/mod/shulkerfix) mod but their version (for some to me unknown reason) only supports the version 1.21.1 (where this bug is already fixed) so I downported it to the versions it actually needs to be in.
+This mod is basically a replica of [this](https://modrinth.com/mod/shulkerfix) mod but their version (for some to me unknown reason) only supports the version 1.21.1 (where this bug is already fixed) so I downported it to the versions it actually needs to be in.
 
 ## Requirements
 
